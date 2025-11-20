@@ -1,11 +1,11 @@
 let i = 1;
 
 while (i <= 100) {
-    if (i % 2 === 0) {   // i est pair
-        console.log(i / 2); 
-    } else {             // i est impair
+    if (i % 2 === 0) {
+        console.log(i / 2);
+    } else {
         console.log(i * 3);
     }
 
-    i += 1; // passer au nombre suivant
+    i++;
 }
